@@ -1,0 +1,97 @@
+{
+  "version": "2026-10-29",
+  "repository": "https://github.com/damonwangk/g2-LandControl",
+  "status": {
+    "general_control": "operator confirmed working",
+    "AB_points": "not configured",
+    "mapping_and_navigation": "interfaces available; physical validation pending"
+  },
+  "runtime": {
+    "launcher": "Python 3.7+; OpenSSH",
+    "robot": "Python 3.10; vendor Agibot GDK"
+  },
+  "tests": {
+    "count": 45,
+    "result": "OK",
+    "mac": "passed",
+    "ubuntu_python37": "passed",
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -v"
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 321,
+      "sha256": "e17a41cd59e1c8fb581ca949078f708a4bc34f2243284128d1fe3ac1a87acdb2"
+    },
+    {
+      "path": "MAPPING.md",
+      "bytes": 6261,
+      "sha256": "6879d7d2d1355290b68745518f0a792768c74463b3641435c34949c757ded7b6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10888,
+      "sha256": "e73cd90b33ea0714a267e71d8d15407af3638abba5450d19719fb8ddadf82305"
+    },
+    {
+      "path": "ab_map.py",
+      "bytes": 9491,
+      "sha256": "659d500dd89515e73ec2b6560f9b25dafd211928ed6fabc347f0db2f25db784d"
+    },
+    {
+      "path": "ab_no_map.py",
+      "bytes": 6941,
+      "sha256": "56e615c6bc31bd66d5e0078f8945e214368f9039b49e0d04e2b654b7180395a8"
+    },
+    {
+      "path": "configs/ab_map.template.json",
+      "bytes": 110,
+      "sha256": "3972c472798966dbd4eb9592f674ec5beaa696731543b5923e8091e572819846"
+    },
+    {
+      "path": "configs/ab_no_map.template.json",
+      "bytes": 116,
+      "sha256": "b373d8eea5389f50f71f41850d53f6f1367f636e1ab2b47ba2c4c1b2cef11f15"
+    },
+    {
+      "path": "control_from_ubuntu.py",
+      "bytes": 3233,
+      "sha256": "da57b76b4fa12c493b9b05d1948a7c1fe7ade162f555e9ecbdda4a8a18d171d4"
+    },
+    {
+      "path": "g2_chassis.py",
+      "bytes": 22840,
+      "sha256": "0b7fb4451a1ba224af96ea9ec0dd5a370cb8c610f66a9fe683f8dca47a715cd0"
+    },
+    {
+      "path": "mapping.py",
+      "bytes": 2897,
+      "sha256": "a174250a300733abfe4a7b9666570a2a9d85b0db3ef551a76e6408ba05bab497"
+    },
+    {
+      "path": "tests/test_ab_map.py",
+      "bytes": 4487,
+      "sha256": "d07a71de948b84fe398be933a4b285db45fbb3904f8db2c87d29aa458b750e00"
+    },
+    {
+      "path": "tests/test_ab_no_map.py",
+      "bytes": 2364,
+      "sha256": "cdd85c0e78c0f3d036087d228837576553d9d6eb794ad7f3df89a7b95047b7ab"
+    },
+    {
+      "path": "tests/test_g2_chassis.py",
+      "bytes": 15626,
+      "sha256": "45c018004d0987175761263038e9a8dc62a70faec03b933b3fa802731446b85a"
+    },
+    {
+      "path": "tests/test_mapping.py",
+      "bytes": 1204,
+      "sha256": "5f3e5f3eed95403992678f21d5e574938d548acfed307aad535749d2bf246387"
+    },
+    {
+      "path": "通用控制操作手册.md",
+      "bytes": 8281,
+      "sha256": "0ad24b91e2ad5930412e7451046a4f07324d6bd604155393db3d82ff6c68c0e6"
+    }
+  ]
+}

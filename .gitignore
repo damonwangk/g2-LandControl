@@ -1,0 +1,27 @@
+# Python / editor caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.DS_Store
+.vscode/
+.idea/
+
+# Local credentials and environment
+.env
+.env.*
+.ssh/
+*.pem
+*.key
+
+# Generated logs, intermediate deliveries and collected data
+*.log
+*.zip
+*.tar.gz
+archive/
+validation/
+recordings/
+datasets/

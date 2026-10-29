@@ -1,0 +1,9 @@
+{
+  "map_id": null,
+  "target": {
+    "x": null,
+    "y": null,
+    "yaw_rad": null
+  },
+  "timeout_s": 120
+}

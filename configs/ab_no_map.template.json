@@ -1,0 +1,10 @@
+{
+  "segments": [
+    {
+      "vx": "m/s",
+      "vy": "m/s",
+      "wz": "rad/s",
+      "seconds": "s"
+    }
+  ]
+}
